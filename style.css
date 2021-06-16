@@ -1,0 +1,317 @@
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+/* This is header information */
+header h1{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+nav {
+    display: flex;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+nav a {
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+  
+
+/* nav ul {
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 25px;
+} */
+
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+li a:hover {
+    background-color: rgb(114, 2, 36);
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+
+.headerphoto img {
+    width: 100%;
+    height: 300px;
+}
+
+figure {
+    margin: 0;
+}
+
+.personalphoto {
+    height: 100%;
+    border-radius: 50%;
+    float: left;
+    margin: 0 100px;
+    height: 700px;
+}
+
+.content {
+    margin: 10px 0 100px;
+    padding: 20px;    
+    height: 700px;
+}
+
+.personalcontent h2 {
+    font-size: 4em; 
+}
+
+.personalcontent h3 {
+    font-size: 30px;
+    font-family: emoji;
+    font-style: italic;
+    margin-bottom: 60px;
+}
+
+.personalcontent p {
+    width: 80%;
+}
+
+.about {
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.aboutme h2{
+    float: left;
+    font-size: 40px;
+    margin-right: 40px;
+    height: 100px;
+}
+
+.about #work h2 {
+    height: 500px;
+}
+
+
+
+#resume {
+    color:turquoise;
+    text-decoration: none;
+    
+}
+
+.flex-container {
+    display: flex;
+    height: 100px;
+    max-width: 33%;
+}
+.flex-container div {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    
+    justify-content: center;
+  }
+  
+
+#contactme h2 {
+    float: left;
+    height: 300px;
+    margin-right: 50px;
+    font-size: 40px;
+}
+
+#contactme p {
+    margin-bottom: 50px;
+}
+
+.button {
+    font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    background-color: rgb(95, 4, 35);
+    margin-left: 10px;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    justify-content: center;
+    margin-right: -1.5rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 2rem;
+    margin:10px;
+    flex: 1 0 auto;
+    font-size: 50px;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+}
+
+.medium-padding {
+    padding: 2.5;
+}
+
+.large-padding {
+    padding: 3em!important;
+}
+
+#onebox {
+  background-image: url('https://www.franconiphotos.eu/wp-content/uploads/cielo-stellato-starry-sky-night-franconi-alessio-franconiphotos-650x433.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#twobox {
+    background-image: url('https://www.discoverlosangeles.com/sites/default/files/images/2019-01/Hermosa%20Beach%20Pier%20sunset.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#thirdbox {
+    background-image: url('https://peakvisor.com/img/news/french-mountains.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#forthbox {
+    background-image: url('https://www.worldatlas.com/r/w960-q80/upload/05/71/c2/shutterstock-713084413.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#fifthbox {
+    background-image: url('https://www.howitworksdaily.com/wp-content/uploads/2015/06/daytime-flow-h2o-1295138.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+/* This is the main information */
+
+
+/* This is the About Section */
+
+
+
+/* This is the Contact Section */
+
+
+
+/* This is footer information */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 200px;
+}
+.fa {
+    padding: 20px;
+    font-size: 40px!important;
+    width: 50px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: white;
+  }
+
+  .fa-instagram {
+    color: white;
+  }
+
+  .fa-google {
+    color: white;
+  }
+
+  .fa-linkedin {
+    color: white;
+  }  
+
+  .flex-grid {
+    display: flex;
+    padding: 0 5em;
+    margin: 4em 0;
+  }
+  .col {
+    flex: 1;
+  }
+
+  .col-title {
+    flex-grow: 0;
+    padding: 2em;
+  }
+
+  @media screen and (max-width: 1200px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+    article {
+        order: 2;
+    }
+    .personalphoto {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    .personalcontent {
+        text-align: center;
+    }
+    .personalcontent p {
+        width: 100%;
+    }
+    .content {
+        height: 100%;
+    }
+
+  }
