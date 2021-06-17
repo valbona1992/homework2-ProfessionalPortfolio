@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,126 +11,99 @@
 </head>
 
 <body>
-    <header> 
+
+    <!-- Navigation bar with header info -->
+    <header>
         <h1> VALBONA BAJRAMI </h1>
-        <nav> 
+        <nav>
             <a href="./index.html"> HOME </a>
             <a href="#aboutmyself"> ABOUT </a>
             <a href="#work"> PROJECTS </a>
-            <a href="#contactme">CONTACT </a>
-
-            <!-- <ul>
-                <li> <a href="./index.html"> HOME </a></li>
-                <li> <a href="#aboutmyself"> ABOUT </a></li>
-                <li> <a href="#work"> PROJECTS </a></li>
-                <li> <a href="#contactme">CONTACT </a></li>
-            </ul> -->
+            <a href="#contact">CONTACT </a>
         </nav>
     </header>
-       
+
     <figure class="headerphoto"> <img src="./images/thumb-1920-38159.jpeg" alt="A header photo of a globe"> </figure>
-  
+
+    <!-- Main content with personal photo -->
     <main>
-        <section class = "content">
-            <img src="images/06E3A4E6-AD95-4D8C-A55A-2AA8A3DECE5A.jpg" class="personalphoto" alt="A professional photo of myself wearing a black button down and burgundy pants">
+        <section class="content">
+            <img src="images/06E3A4E6-AD95-4D8C-A55A-2AA8A3DECE5A.jpg" class="personalphoto"
+                alt="A professional photo of myself wearing a black button down and burgundy pants">
             <article class="personalcontent">
-                <h2> Valbona Bajrami</h2> 
+                <h2> Valbona Bajrami</h2>
                 <h3> Healthcare Professional and Full Stack Developer</h3>
-    
-                <p> I am a heathcare professional with a passion for tech, focused on crafting user-friendly experiences and providing creative tools to help achieve a more educated world. </p>
+
+                <p> I am a heathcare professional with a passion for tech, focused on crafting user-friendly experiences
+                    and providing creative tools to help achieve a more educated world. </p>
             </article>
         </section>
 
-        <div class="flex-grid">
-            <div class="col col-title"><h1> About </h1></div>
+        <!-- About me information with a resume link that has a placeholder at this time -->
+        <div class="flex-grid" id="aboutmyself">
+            <div class="col col-title">
+                <h1> About </h1>
+            </div>
             <div class="col">
-                <p> For the past 6 years, I have been investing my time in pursuing my passions in healthcare as a naturopathic doctor and acupuncturist. My love for medicine led me to the tech-world as I noticed a gap with healthcare professionals not being able to provide services and education because of the lack of web designs designed for the medical field. I plan to use the knowledge I have learned as a full-stack developer to help bridge the gap in medicine and tech.</p> 
-                <p> Take a look at my resume to learn more about the prior experiences I had that has led me here today.<br> <a href="#" id="resume" alt="link to personal resume">Resume </a></p>
+                <p> For the past 6 years, I have been investing my time in pursuing my passions in healthcare as a
+                    naturopathic doctor and acupuncturist. My love for medicine led me to the tech-world as I noticed a
+                    gap with healthcare professionals not being able to provide services and education because of the
+                    lack of web designs designed for the medical field. I plan to use the knowledge I have learned as a
+                    full-stack developer to help bridge the gap in medicine and tech.</p>
+                <p> Take a look at my resume to learn more about the prior experiences I had that has led me here
+                    today.<br> <a href="#" id="resume" alt="link to personal resume">Resume </a></p>
             </div>
         </div>
 
-<!--         
-        <section class = "about">
-            <article class="aboutme" id="aboutmyself">
-                <h2> About </h2> 
-                <p> For the past 6 years, I have been investing my time in pursuing my passions in healthcare as a naturopathic doctor and acupuncturist. My love for medicine led me to the tech-world as I noticed a gap with healthcare professionals not being able to provide services and education because of the lack of web designs designed for the medical field. I plan to use the knowledge I have learned as a full-stack developer to help bridge the gap in medicine and tech.</p> 
-                <p> Take a look at my resume to learn more about the prior experiences I had that has led me here today.<br> <a href="#" id="resume" alt="link to personal resume">Resume </a></p>
-            </article>
-        </section> -->
-
-
-
-        <div class="flex-grid">
-            <div class="col col-title"><h1> Projects </h1></div>
+        <!-- Work info with several placeholders for future projects -->
+        <div class="flex-grid" id="work">
+            <div class="col col-title">
+                <h1> Projects </h1>
+            </div>
             <div class="col">
-                <article class="aboutme" id="work">
+                <article class="aboutme">
                     <div class="row">
                         <a href="#" class="box large-padding" id="onebox">Project 1</a>
                     </div>
-                    <div class= "row">
+                    <div class="row">
                         <a href="#" class="box" id="twobox">Project 2</a>
                         <a href="#" class="box" id="thirdbox">Project 3</a>
                     </div>
-                    <div class= "row">
+                    <div class="row">
                         <a href="#" class="box" id="forthbox">Project 4</a>
                         <a href="#" class="box" id="fifthbox">Project 5</a>
                     </div>
                 </article>
             </div>
         </div>
-<!-- 
-        <section class = "about">
-            <article class="aboutme" id="work">
-                <h2> Projects </h2> 
-                <div class="row">
-                    <a href="#" class="box large-padding" id="onebox">Project 1</a>
-                </div>
-                <div class= "row">
-                    <a href="#" class="box" id="twobox">Project 2</a>
-                    <a href="#" class="box" id="thirdbox">Project 3</a>
-                </div>
-                <div class= "row">
-                    <a href="#" class="box" id="forthbox">Project 4</a>
-                    <a href="#" class="box" id="fifthbox">Project 5</a>
-                </div>
-            </article>
-        </section> -->
 
-
-
-        <div class="flex-grid">
-            <div class="col col-title"><h1> Contact </h1></div>
+        <!-- Contact me info with email button -->
+        <div class="flex-grid" id="contact">
+            <div class="col col-title">
+                <h1> Contact </h1>
+            </div>
             <div class="col">
                 <h3> Let's Work Together!</h3>
-                <p> If you are interested in working with me, please leave your contact information below. Also, feel free to check out my other personal accounts for more information about me. </p>
+                <p> If you are interested in working with me, please leave your contact information below. Also, feel
+                    free to check out my other personal accounts for more information about me. </p> <br>
 
-                <a id="send-mail" class="button" href="mailto:valbona12@gmail.com"><span aria-hidden="true" class="icon-mail"></span>✉️  Get in touch</a>
+                <a id="send-mail" class="contact-button" href="mailto:valbona12@gmail.com"><span aria-hidden="true"
+                        class="icon-mail"></span>✉️ Get in touch</a>
             </div>
         </div>
-<!-- 
-
-        <section class = "about" id="contactme">
-            <article class="contact">
-                <h2> Contact</h2>
-                <h3> Let's Work Together!</h3>
-                <p> If you are interested in working with me, please leave your contact information below. Also, feel free to check out my other personal accounts for more information about me. </p>
-
-                <a id="send-mail" class="button" href="mailto:valbona12@gmail.com"><span aria-hidden="true" class="icon-mail"></span>✉️  Get in touch</a>
-                
-            </article>
-        </section> -->
 
     </main>
 
-    <footer> 
+    <!-- Footer Information with placeholders at this time -->
+    <footer>
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-instagram"></a>
         <a href="#" class="fa fa-google"></a>
         <a href="#" class="fa fa-linkedin"></a> <br>
-      
+
 
     </footer>
-    
+
 </body>
 
 </html>
