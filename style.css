@@ -145,7 +145,7 @@ figure {
 }
 
 .large-padding {
-    padding: 3em !important;
+    padding: 3em 1em !important;
 }
 
 #onebox {
