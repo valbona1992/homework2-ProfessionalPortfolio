@@ -1,6 +1,6 @@
 
 body {
-    margin: 0 10rem;
+    margin: 0 10rem!important;
 }
 
 .fa {
@@ -20,11 +20,12 @@ body {
 }
 
 .text-primary {
-    color: white!important;
+    color: rgb(231, 229, 229)!important;
 }
 
 .bg-dark {
-    color: rgb(54, 48, 48)!important;
+    --bs-bg-opacity: .9;
+    background-color: #181818!important;
 }
 
 .text-danger {
@@ -72,6 +73,9 @@ p a{
     font-style: italic;
 }
 
+img {
+    opacity: 80%;
+}
 
 
 @media only screen 
@@ -83,6 +87,7 @@ and (max-device-width : 991.98px)  {
   }
   .homeimg {
     width: 100%;
+    padding-top: 4rem;
   }
   .navbar {
     margin-left: 10px;
@@ -108,5 +113,6 @@ and (max-device-width : 667px) {
   }
   .homepage {
     text-align: center;
+
   }
  };
