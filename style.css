@@ -37,7 +37,7 @@ body {
 
 .btn {
     border-radius: 1000px;
-    color: #8cd98c;
+    color: #8cd98c!important;
     background: #0F529B!important;
     border: none;
     padding: 10px 25px;
@@ -71,3 +71,42 @@ p a{
     font-size: 2rem;
     font-style: italic;
 }
+
+
+
+@media only screen 
+and (min-device-width : 668px) 
+and (max-device-width : 991.98px)  { 
+
+  body {
+    margin: 1rem 3rem!important;
+  }
+  .homeimg {
+    width: 100%;
+  }
+  .navbar {
+    margin-left: 10px;
+  }
+  .homepage {
+    text-align: center;
+  }
+}
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+  body {
+    margin: 0!important;
+  }
+  .homeimg {
+    width: 100%;
+    padding-top: 4rem;
+  }
+  .navbar {
+    margin-left: 10px;
+  }
+  .homepage {
+    text-align: center;
+  }
+ };
