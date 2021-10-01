@@ -6,7 +6,6 @@ body {
 .fa {
     padding: 20px;
     font-size: 40px !important;
-    width: 60px;
     text-align: center;
     margin: 10px;
     border-radius: 50%;
@@ -25,7 +24,7 @@ body {
 }
 
 .bg-dark {
-    color: black!important;
+    color: rgb(54, 48, 48)!important;
 }
 
 .text-danger {
@@ -56,3 +55,7 @@ a:hover {
     color: #8cd98c!important;
 }
 
+p a{
+    color: #740F53!important;
+    text-decoration: none;
+}
