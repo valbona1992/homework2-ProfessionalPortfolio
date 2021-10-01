@@ -60,3 +60,14 @@ p a{
     color: #740F53!important;
     text-decoration: none;
 }
+
+.about {
+    margin-right: 3rem;
+}
+
+.resume {
+    color: #8cd98c!important;
+    text-decoration: none;
+    font-size: 2rem;
+    font-style: italic;
+}
