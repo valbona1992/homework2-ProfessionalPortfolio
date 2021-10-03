@@ -2,7 +2,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## Description
-A portfolio that displays information about me, the projects I have done through the coding bootcam course, as well as ways to contact me. Here is the link to the deployed portfolio 
+A portfolio that displays information about me, the projects I have done through the coding bootcam course, as well as ways to contact me. Here is the [link](https://valbona1992.github.io/homework2-ProfessionalPortfolio/) to the deployed portfolio.
 
 ## Table of Contents 
 
