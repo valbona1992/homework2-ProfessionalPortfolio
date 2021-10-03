@@ -1,18 +1,39 @@
-# homework2-ProfessionalPortfolio
+# Portfolio  <br/>
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
-To view the actual webpage, please click [here](https://valbona1992.github.io/homework2-ProfessionalPortfolio/).
+## Description
+A portfolio that displays information about me, the projects I have done through the coding bootcam course, as well as ways to contact me. Here is the link to the deployed portfolio 
 
-## Summary
-This assignment required me to deploy a portfolio website from scratch using HTML and CSS. 
+## Table of Contents 
 
-Below is a summary of what I implemented. 
+* [User Story](#userstory)
+* [Screenshots](#screenshots)
+* [Tech](#tech)
+* [License](#license)
+* [Contributors](#contributors)
+* [Questions](#questions)
 
-* Added a navigation bar that included my name, and links to the following: about, work, and contact. 
-* Added a header photo. 
-* Added a personal photo with a short description about me. 
-* Added sections that included information regarding the links above (about, work and contact). 
-* In the work section, I included flexbox to help organize the listed projects as described in the acceptance criteria. 
-* Added contact information, as well as included social media buttons in the footer (with placeholders).
+## User Story
+```
+AS AN employer
+I WANT to view a potential employee's deployed portfolio of work samples
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+```
 
-## Screenshot
-![screenshot](images/portfolio.png)
+## Screenshots
+<img src="images/homepage.png" alt="screenshot" /> <br/> <br/>
+<img src="images/projects.png" alt="screenshot" />
+
+## Tech
+* HTML
+* CSS 
+* Bootstrap
+## Contributors
+:woman_with_headscarf: [Valbona Bajrami](https://github.com/valbona1992)
+
+## License
+License is [MIT](https://opensource.org/licenses/MIT) standard license.
+
+## Questions
+GitHub: https://github.com/valbona1992  <br/>
+Email me with any questions: valbona12@gmail.com
